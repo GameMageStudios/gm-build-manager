@@ -5,6 +5,7 @@
 
 Commands Supported:
 - `help`                                                 : Shows the help menu.
-- `unpack <filepath> <name>`                             : Unpacks a .gmbdf file (GameMage's Build Data File).
+- `unpack <filepath> <name>`                             : Unpacks a .gmbdf file.
+- `download <user> <repo>`                               : Downloads a .gmbdf file from GitHub.
 - `launch <name>`                                        : Launches a package.
-- `pack <directory> [ignore-extensions] [ingnore-files]` : Packs a project, both optional arguments are lists separated by `;`
+- `pack <directory> [ignore-extensions] [ignore-files]`  : Packs a project (lists separated by `;`)
