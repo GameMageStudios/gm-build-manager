@@ -9,3 +9,5 @@ Commands Supported:
 - `download <user> <repo>`                               : Downloads a .gmbdf file from GitHub.
 - `launch <name>`                                        : Launches a package.
 - `pack <directory> [ignore-extensions] [ignore-files]`  : Packs a project (lists separated by `;`)
+
+Note: A project must contain __entry__.py to be launched via CLI.
